@@ -1,0 +1,18 @@
+.bg-img{
+    background-image: url(/DALblack.png);
+    height: 100vh;
+    filter: brightness(10%); 
+    
+}
+
+.crouselImag{
+    position:absolute;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* background-image: url(/public/topbarner.png); */
+    background-size: cover;
+
+}
+

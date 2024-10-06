@@ -1,34 +1,31 @@
 #root {
-
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-
 }
-.navbarContainer{
+
+.NavContainer{
+  background-color: rgb(229, 233, 233);
+  
+
  
+}
+
+.navbar{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.navbarContainer ul{
+.navbar ul{
   display: flex;
   flex-direction: row;
   list-style: none;
   gap: 2em;
   
 }
-.navbarContainer a{
+.navbar a{
   text-decoration: none;
   color: rgb(10, 6, 6);
   transition: color 0.3s ease;
 }
-.topBarner {
-  height: 100px;
-}
-.topBarner img{
-  position: relative;
-  width: 100%;
-  height: 1;
 
-}
